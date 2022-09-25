@@ -215,8 +215,7 @@ button.thumbnail {
   border: none;
   outline: none;
   border-radius: 50%;
-  // margin: 0 12px;
-  margin: 0;
+  margin: 0 12px;
 }
 .user-nav {
   position: relative;
@@ -1304,6 +1303,13 @@ input[type='file']::file-selector-button {
   box-shadow: none;
 }
 .cart-icon {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart-icon img {
   display: flex;
   text-align: center;
   justify-content: center;
