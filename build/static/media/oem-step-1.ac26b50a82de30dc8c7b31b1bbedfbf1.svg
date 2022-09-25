@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="40px" height="40px" viewBox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve">
+<g>
+	<path fill="none" stroke="#26699c" stroke-width="1.5" stroke-miterlimit="10" d="M33.6,32H6.4c-0.8,0-1.5-0.7-1.5-1.5v-8.9
+		c0-0.8,0.7-1.5,1.5-1.5h27.2c0.801,0,1.5,0.7,1.5,1.5v8.9C35.1,31.3,34.4,32,33.6,32z"/>
+	<circle fill="none" stroke="#26699c" stroke-width="1.5" stroke-miterlimit="10" cx="20" cy="7.1" r="2.8"/>
+	<path fill="none" stroke="#ea468f" stroke-width="1.5" stroke-miterlimit="10" d="M14,4.3c0,0-2.7,2.4,0,4.9"/>
+	<path fill="none" stroke="#ea468f" stroke-width="1.5" stroke-miterlimit="10" d="M9.9,0.9c0,0-7,6.2,0,12.7"/>
+	<path fill="none" stroke="#ea468f" stroke-width="1.5" stroke-miterlimit="10" d="M26.3,4.3c0,0,2.7,2.4,0,4.9"/>
+	<path fill="none" stroke="#ea468f" stroke-width="1.5" stroke-miterlimit="10" d="M30.3,0.9c0,0,7,6.2,0,12.7"/>
+	<line fill="none" stroke="#26699c" stroke-width="1.5" stroke-miterlimit="10" x1="11.4" y1="26" x2="13.4" y2="26"/>
+	<line fill="none" stroke="#26699c" stroke-width="1.5" stroke-miterlimit="10" x1="19" y1="26" x2="29.6" y2="26"/>
+	<line fill="none" stroke="#26699c" stroke-width="1.5" stroke-miterlimit="10" x1="16.8" y1="32" x2="12" y2="39.1"/>
+	<line fill="none" stroke="#26699c" stroke-width="1.5" stroke-miterlimit="10" x1="23.4" y1="32" x2="28.3" y2="39.1"/>
+	<path fill="none" stroke="#26699c" stroke-width="1.5" stroke-miterlimit="10" d="M20,9.9c0,0-0.1,10.2,0,10.2"/>
+</g>
+</svg>
