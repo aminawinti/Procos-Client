@@ -1310,7 +1310,10 @@ input[type='file']::file-selector-button {
 }
 
 .cart-icon img {
+  display: block;
   width: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
   height: auto;
   // align-self: center;
   border: 1px solid red;
