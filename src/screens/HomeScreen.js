@@ -102,8 +102,8 @@ function HomeScreen() {
       dispatch({ type: 'FETCH_REQUEST' });
       try {
         const [result] = await axios.all([
-          axios.get('https://procos.herokuapp.com/api/products'),
-          axios.get('https://procos.herokuapp.com/api/products/categories'),
+          axios.get('/api/products'),
+          axios.get('/api/products/categories'),
         ]);
 
         function replacer(key, value) {

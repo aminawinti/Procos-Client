@@ -65,12 +65,9 @@ export default function UserListScreen() {
     const fetchData = async () => {
       try {
         dispatch({ type: 'FETCH_REQUEST' });
-        const { data } = await axios.get(
-          `https://procos.herokuapp.com/api/users/admin?page=${page}`,
-          {
-            headers: { Authorization: `Bearer ${userInfo.token}` },
-          }
-        );
+        const { data } = await axios.get(`/api/users/admin?page=${page}`, {
+          headers: { Authorization: `Bearer ${userInfo.token}` },
+        });
         dispatch({ type: 'FETCH_SUCCESS', payload: data });
       } catch (err) {
         dispatch({
@@ -92,12 +89,9 @@ export default function UserListScreen() {
     ) {
       try {
         dispatch({ type: 'DELETE_REQUEST' });
-        await axios.delete(
-          `https://procos.herokuapp.com/api/users/${user._id}`,
-          {
-            headers: { Authorization: `Bearer ${userInfo.token}` },
-          }
-        );
+        await axios.delete(`/api/users/${user._id}`, {
+          headers: { Authorization: `Bearer ${userInfo.token}` },
+        });
         toast.success('user deleted successfully');
         dispatch({ type: 'DELETE_SUCCESS' });
       } catch (error) {
