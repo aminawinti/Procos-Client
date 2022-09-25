@@ -64,6 +64,7 @@ const ServiceContentLeft = (props) => {
     <div className="sub-service-container left">
       <div className="service-section-item">
         <img
+          loading="lazy"
           src={props.mainImg}
           alt={props.altMainImg}
           className="img-responsive"

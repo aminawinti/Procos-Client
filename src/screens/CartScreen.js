@@ -69,6 +69,7 @@ export default function CartScreen() {
                         <td className="table-td row-container">
                           <div className="img-and-details">
                             <img
+                              loading="lazy"
                               src={item.image}
                               alt={t('pages.cart.imgNotFound')}
                               className="img-fluid rounded img-thumbnail"

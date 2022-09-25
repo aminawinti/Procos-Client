@@ -141,6 +141,7 @@ function ProductScreen() {
       <div className="product__wrapper">
         <Col md={5} className="product-image-container">
           <img
+            loading="lazy"
             className="product-img"
             src={product.image}
             alt={t('pages.cart.imgNotFound')}

@@ -81,7 +81,13 @@ const MainNavbar = () => {
           {/* Brand - Logo */}
           <LinkContainer to="/">
             <Navbar.Brand className="link-brand">
-              <img src={cpLogo} width="40" height="auto" alt="cp logo"></img>
+              <img
+                loading="lazy"
+                src={cpLogo}
+                width="40"
+                height="auto"
+                alt="cp logo"
+              ></img>
             </Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -209,7 +215,7 @@ const MainNavbar = () => {
               title="Cart"
             >
               <div className="cart-icon">
-                <img src={cartIcon} alt="cart"></img>
+                <img loading="lazy" src={cartIcon} alt="cart"></img>
                 {cart.cartItems.length > 0 && (
                   <span className="icon-button__badge">
                     {cart.cartItems.reduce((a, c) => a + c.quantity, 0)}
@@ -225,6 +231,7 @@ const MainNavbar = () => {
             align="end"
             title={
               <img
+                loading="lazy"
                 className="nav__dropdown-img"
                 src={i18n.resolvedLanguage === 'en' ? ukFlag : jaFlag}
                 alt="flag not found"

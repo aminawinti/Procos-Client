@@ -44,6 +44,7 @@ function Product(props) {
 
       <Link to={`/product/${product.slug}`}>
         <img
+          loading="lazy"
           src={product.image}
           className="card-img-top product-img-styling"
           alt={product.name}

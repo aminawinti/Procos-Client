@@ -204,6 +204,7 @@ export default function OrderScreen() {
               <tr className="order__table-body" key={item._id}>
                 <td>
                   <img
+                    loading="lazy"
                     src={item.image}
                     alt={item.name}
                     className="img-fluid rounded img-thumbnail"

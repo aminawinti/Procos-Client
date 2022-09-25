@@ -143,6 +143,7 @@ export default function PlaceOrderScreen() {
                     title={t('pages.placeOrder.edit')}
                   >
                     <img
+                      loading="lazy"
                       className="edit-icon"
                       alt="icon not found"
                       src={edit}
@@ -187,6 +188,7 @@ export default function PlaceOrderScreen() {
                     title={t('pages.placeOrder.edit')}
                   >
                     <img
+                      loading="lazy"
                       className="edit-icon"
                       alt="icon not found"
                       src={edit}
@@ -207,6 +209,7 @@ export default function PlaceOrderScreen() {
                       <tr className="place-order__table-body" key={item._id}>
                         <td>
                           <img
+                            loading="lazy"
                             src={item.image}
                             alt={item.name}
                             className="img-fluid rounded img-thumbnail"
