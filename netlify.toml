@@ -1,6 +1,6 @@
 [[redirects]]
-  from = "/"
-  to = "https://procos.herokuapp.com"
+  from = "https://procos.herokuapp.com"
+  to = "/"
   status = 200
   force = true
   headers = {X-From = "Netlify"}
