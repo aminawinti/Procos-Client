@@ -77,7 +77,9 @@ function ProductScreen() {
   const addToCartHandler = async () => {
     const existItem = cart.cartItems.find((x) => x._id === product._id);
     const quantity = existItem ? existItem.quantity + 1 : 1;
-    const { data } = await axios.get(`/api/products/${product._id}`);
+    const { data } = await axios.get(
+      `https://procos.herokuapp.com/api/products/${product._id}`
+    );
 
     ctxDispatch({
       type: 'CART_ADD_ITEM',
@@ -101,7 +103,7 @@ function ProductScreen() {
     }
     try {
       const { data } = await axios.post(
-        `/api/products/${product._id}/reviews`,
+        `https://procos.herokuapp.com/api/products/${product._id}/reviews`,
         { rating, comment, name: userInfo.name },
         {
           headers: { Authorization: `Bearer ${userInfo.token}` },
