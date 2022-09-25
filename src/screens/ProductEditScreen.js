@@ -64,7 +64,9 @@ export default function ProductEditScreen() {
     const fetchData = async () => {
       try {
         dispatch({ type: 'FETCH_REQUEST' });
-        const { data } = await axios.get(`/api/products/${productId}`);
+        const { data } = await axios.get(
+          `https://procos.herokuapp.com/api/products/${productId}`
+        );
         setName(data.name);
         setSlug(data.slug);
         setImage(data.image);
@@ -90,7 +92,9 @@ export default function ProductEditScreen() {
   useEffect(() => {
     const fetchCategories = async () => {
       try {
-        const { data } = await axios.get(`/api/products/categories`);
+        const { data } = await axios.get(
+          `https://procos.herokuapp.com/api/products/categories`
+        );
         setCategories(data);
       } catch (err) {
         toast.error(getError(err));
@@ -104,7 +108,7 @@ export default function ProductEditScreen() {
     try {
       dispatch({ type: 'UPDATE_REQUEST' });
       await axios.put(
-        `/api/products/${productId}`,
+        `https://procos.herokuapp.com/api/products/${productId}`,
         {
           _id: productId,
           name,
