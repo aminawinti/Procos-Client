@@ -208,14 +208,14 @@ const MainNavbar = () => {
               className="nav-link"
               title="Cart"
             >
-              <span className="cart-icon">
+              <div className="cart-icon">
                 <img src={cartIcon} alt="cart"></img>
                 {cart.cartItems.length > 0 && (
                   <span className="icon-button__badge">
                     {cart.cartItems.reduce((a, c) => a + c.quantity, 0)}
                   </span>
                 )}
-              </span>
+              </div>
             </Nav.Link>
           </Nav.Item>
 
