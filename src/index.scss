@@ -1309,11 +1309,14 @@ input[type='file']::file-selector-button {
   align-items: center;
 }
 
-.cart-icon img {
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
+.cart-icon img{
+  width: 20px;
+  height: auto;
+  align-self: center;
+  // display: flex;
+  // text-align: center;
+  // justify-content: center;
+  // align-items: center;
 }
 /**********  searchscreen  **********/
 .no-product-msg {

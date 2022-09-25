@@ -209,7 +209,7 @@ const MainNavbar = () => {
               title="Cart"
             >
               <span className="cart-icon">
-                <img src={cartIcon} width="20" height="auto" alt="cart"></img>
+                <img src={cartIcon} alt="cart"></img>
                 {cart.cartItems.length > 0 && (
                   <span className="icon-button__badge">
                     {cart.cartItems.reduce((a, c) => a + c.quantity, 0)}
