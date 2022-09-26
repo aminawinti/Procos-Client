@@ -1,5 +1,5 @@
 [[redirects]]
-  from = "/*"
-  to = "/index.html"
+  from = "/index.html"
+  to = "https://www.google.com.tn/"
   status = 200
   force = true
