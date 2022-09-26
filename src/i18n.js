@@ -68,7 +68,7 @@ i18n
           },
           navbar: {
             search: 'Search',
-            about: 'About us --',
+            about: 'About',
             idea: 'CP Idea',
             contact: 'Contact us',
             services: 'Services',
