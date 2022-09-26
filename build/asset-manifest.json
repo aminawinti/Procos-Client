@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f8e5c107.css",
-    "main.js": "/static/js/main.6500559e.js",
+    "main.css": "/static/css/main.fc1ecf4a.css",
+    "main.js": "/static/js/main.b3735c57.js",
     "static/media/not-found.png": "/static/media/not-found.923f3ad5e89066db4871.png",
     "static/media/embedded-system-image.jpg": "/static/media/embedded-system-image.8f43e2943545576176c3.jpg",
     "static/media/pcb-design-image.jpg": "/static/media/pcb-design-image.a088f0f7e53e896610df.jpg",
@@ -73,11 +73,11 @@
     "static/media/minus.svg": "/static/media/minus.c3380a977f58b3c28e79.svg",
     "static/media/ja.svg": "/static/media/ja.331bd6f24438997c8cc1d5c5700d6f5a.svg",
     "static/media/down.svg": "/static/media/down.dc6694cac5606135a363.svg",
-    "main.f8e5c107.css.map": "/static/css/main.f8e5c107.css.map",
-    "main.6500559e.js.map": "/static/js/main.6500559e.js.map"
+    "main.fc1ecf4a.css.map": "/static/css/main.fc1ecf4a.css.map",
+    "main.b3735c57.js.map": "/static/js/main.b3735c57.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8e5c107.css",
-    "static/js/main.6500559e.js"
+    "static/css/main.fc1ecf4a.css",
+    "static/js/main.b3735c57.js"
   ]
 }
