@@ -226,7 +226,7 @@ function ProductScreen() {
           </span>
 
           <div className="mb-3">
-            {product.reviews.length === 0 && (
+            {product.reviews?.length === 0 && (
               <MessageBox variant="warning" className="light">
                 {t('pages.product.noReview')}
               </MessageBox>
