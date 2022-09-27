@@ -233,7 +233,7 @@ function ProductScreen() {
             )}
           </div>
           <div className="review-cards">
-            {product.reviews.map((review) => (
+            {product.reviews?.map((review) => (
               <div className="review-card" key={review._id}>
                 <div className="client-review-header">
                   <div className="client-review-header-content">
