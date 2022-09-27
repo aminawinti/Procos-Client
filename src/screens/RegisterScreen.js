@@ -40,11 +40,14 @@ export default function RegisterScreen() {
       return;
     }
     try {
-      const { data } = await Axios.post('/api/users/register', {
-        name,
-        email,
-        password,
-      });
+      const { data } = await Axios.post(
+        'https://procos.herokuapp.com/api/users/register',
+        {
+          name,
+          email,
+          password,
+        }
+      );
       ctxDispatch({ type: 'USER_LOGIN', payload: data });
       localStorage.setItem('userInfo', JSON.stringify(data));
       navigate(redirect || '/');
