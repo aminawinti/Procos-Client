@@ -192,7 +192,8 @@ export default function ProductEditScreen() {
                     value={c}
                     onChange={(e) => setCategory(e.target.value)}
                     required
-                    // defaultChecked={c === categories[0] ? true : false}
+                    checked={category === c}
+                    defaultChecked={c === categories[0] ? true : false}
                   />
                   <span>{c}</span>
                 </label>
