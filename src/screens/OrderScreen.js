@@ -18,6 +18,7 @@ import { useTranslation, Trans } from 'react-i18next';
 import { toast } from 'react-toastify';
 import delivered from '../assets/icons/delivered.svg';
 import pending from '../assets/icons/pending.svg';
+import CheckoutSteps from '../components/CheckoutSteps';
 
 function reducer(state, action) {
   switch (action.type) {
@@ -116,6 +117,8 @@ export default function OrderScreen() {
     <MessageBox variant="danger">{error}</MessageBox>
   ) : (
     <div>
+      <CheckoutSteps step1 step2 step3></CheckoutSteps>
+
       <Container className="order-container">
         <Helmet>
           <title>{t('pages.order.helmet')}</title>
@@ -165,11 +168,8 @@ export default function OrderScreen() {
                 alt={t('pages.cart.imgNotFound')}
               />
               <div className="order-notification-text">
-                {t('pages.order.mailNotify1')}
-                {t('pages.order.mailNotify2')}{' '}
-                <span className="email-text">{userInfo.email}</span>
+                {t('pages.order.mailNotify1')} {t('pages.order.mailNotify2')}
                 <br />
-                {t('pages.order.mailNotify3')}
               </div>
             </div>
             <div className="order__button-container">

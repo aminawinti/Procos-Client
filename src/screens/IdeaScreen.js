@@ -30,7 +30,7 @@ function IdeaScreen() {
       <div className="container-fluid justify-content-center our__thoughts-container">
         <div className="thoughts-bg">
           <div className="outter-div col-12">
-            <div className="col-10 col-md-8 col-lg-8 inner-div">
+            <div className="col-10 inner-div">
               <div className="custom_section-title">
                 <h1 className="custom_section-title-header">
                   {t('pages.idea.thoughts')}
@@ -128,7 +128,7 @@ function IdeaScreen() {
       </div>
 
       {/* <!-- OEM FLOW --> */}
-      <div id="oemflow" className="corporate-history">
+      <div id="oemflow" className="oem-flow">
         <div className="section-title">
           <div className="section-title-pattern"></div>
           <h1 className="section-title-header">

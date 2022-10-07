@@ -35,9 +35,9 @@ i18n
             header: 'PRODUCTS',
           },
           cta: {
-            line1: 'If you are looking for proposals for',
-            line2: 'beauty and health',
-            line3: 'please feel free to contact us.',
+            sentence1:
+              'If you are looking for proposals for beauty and health, ',
+            sentence2: 'please feel free to contact us.',
             button: 'Get in touch',
           },
           who: {
@@ -46,7 +46,7 @@ i18n
           section1: {
             header: 'Original Cosmetics',
             description:
-              'We develop manufacture and sell our own cosmetics, we also carry out OEM/ODM production. We manufacture products for domestic and overseas use.',
+              'Procos Cosmetics not only develops, manufactures, and sells its own cosmetics, but also offers OEM/ODM production in response to customer feedback. We are capable of manufacturing products not only for the domestic market but also for overseas markets.',
           },
           section2: {
             header: 'Beauty, Health & Healing',
@@ -94,14 +94,15 @@ i18n
               helmet: 'CP Beauty | About',
               welcome: 'WELCOME',
               welcomeContent:
-                'Our philosophy is that "all management begins with the customer, and management begins with the creation of a true specialty store."\nWith the aim of creating beautiful bare skin, through advanced counseling that guides you on the correct cosmetics, We sincerely and accurately respond to each customer`s skin, and recommend a beauty culture system (facial treatment) based on our unique external and internal beauty.\nWe are proud of our extensive new product development capabilities, as well as our high levels of quality, efficacy and safety.\nWe have a wide range of products, especially commercial products and serums.\nIn addition, we hold substantial training seminars under a consistent education system.',
+                'Our philosophy is that "All management begins with the customer, and management begins with the creation of a true specialty store."\nWe recommend a unique beauty culture system (facial technique) based on a unique external and internal beauty system, which faithfully and accurately responds to each client`s skin through advanced counseling to guide them to the correct cosmetics for the purpose of making their skin beautiful.\nWe are proud of our ability to develop a full range of new products and of the quality, effectiveness and safety of our products.\nEquipped with a wide variety of product mixes, especially a very large assortment of professional products and beauty salons.\nFurthermore, we offer a full range of training seminars under a consistent education system.',
               ceoName: 'Daisuke Sato',
-              ceoPosition: 'CP Chief Executive Officer',
+              ceoPosition: 'Chief Executive Officer',
               companyProfile: 'COMPANY PROFILE',
-              startDate: 'Established',
+              startDate: 'Establishment',
               startDateContent: 'April 10, 1995',
               mainActivity: 'Main Activity',
-              mainActivityContent: 'Sale of cosmetics for esthetic salons',
+              mainActivityContent:
+                'Sales of cosmetics exclusively for esthetic salons',
               address: 'Address',
               addressContent:
                 '〒562-0004 1-19-19 Makiochi, Minoh City, Osaka Prefecture MD HOUSE03 201',
@@ -128,29 +129,30 @@ i18n
               },
               corporateHistory: 'CORPORATE HISTORY',
               ts1: {
-                date: 'Present',
-                details: 'About 360 trading stores',
+                date: 'present',
+                details:
+                  'The number of stores transacting business with the company reached approximately 360 stores.',
               },
               ts2: {
-                details: 'Established Taiwan sales company in Taiwan',
+                details: 'Established Taiwan sales office in Taiwan',
               },
               ts3: {
-                details: 'Opened a major trading store in South Korea',
+                details: 'Main trading store opened in South Korea',
               },
               ts4: {
-                details: 'Established Kansai sales company in Osaka',
+                details: 'Kansai sales office established in Osaka',
               },
               ts5: {
-                detail1: 'Established Shikoku sales company in Kagawa',
-                detail2: 'Established a Chinese sales company in Yamaguchi',
+                detail1: 'Shikoku sales office established in Kagawa',
+                detail2: 'Chugoku sales office established in Yamaguchi',
               },
               ts6: {
-                details: 'Established Kyushu sales company in Fukuoka',
+                details: 'Kyushu sales office established in Fukuoka',
               },
               ts7: {
                 date: 'April, 1995',
                 detail1: 'Procos Company Formation',
-                detail2: 'Started business with 25 stores in Okinawa',
+                detail2: 'Started business with 25 stores in Okinawa area',
               },
             },
             idea: {
@@ -242,21 +244,20 @@ i18n
               section3: {
                 header: 'Privacy policy',
                 sentence1:
-                  'When operating this site, we respect the privacy of our customers, give due consideration to personal information, carefully protect it, and strive to manage it appropriately.',
-                sentence2: 'Purpose of using personal information:',
+                  'In operating this website, we respect the privacy of our customers and give due consideration to personal information, protecting it carefully and managing it appropriately.',
+                sentence2: 'Purpose of use of personal information',
                 sentence3:
-                  'Various contacts to provide services that meet the needs of our customers.',
-                sentence4: 'Contact us with answers to your inquiries.',
+                  'Various communications to provide services tailored to your needs.',
+                sentence4: 'Contacting you with answers to your questions.',
                 bullet1:
-                  'The acquired personal information will not be used for any purpose other than the purpose without the consent of the individual.',
+                  'Personal information obtained will not be used for any other purpose without the consent of the person concerned.',
                 bullet2:
-                  'We take measures to prevent information leakage and supervise not only employees but also contractors.',
+                  'We take measures to prevent information leaks and supervise contractors as well as employees.',
                 bullet3:
-                  'We will not provide information to third parties without the consent of the individual.',
-                bullet4:
-                  'We will disclose information at the request of the person.',
+                  'We will not provide information to third parties without your consent.',
+                bullet4: 'We will disclose information upon your request..',
                 bullet5:
-                  'If the disclosed personal information is not true, we will correct or delete it.',
+                  'If the personal information disclosed is not true, we will be happy to correct or delete it.',
                 bullet6:
                   'We will respond appropriately and promptly to complaints regarding the handling of personal information.',
               },
@@ -501,9 +502,8 @@ i18n
               helmet: 'CP Beauty | Order Completed',
               order: 'Order',
               mainMessage: 'Order Completed Successfully!',
-              mailNotify1: 'An order receipt has been sent ',
-              mailNotify2: 'to',
-              mailNotify3: 'Please keep it for your records.',
+              mailNotify1: 'An order receipt has been sent.',
+              mailNotify2: 'Please keep it for your records.',
               continueButton: 'Continue Shopping',
               fulfillButton: 'Fulfill Order',
               delivered: 'delivered',
@@ -572,11 +572,11 @@ i18n
           outOfStock: 'ごめん。 商品は在庫切れです！',
           hero: {
             header: 'オリジナル＆海外化粧品OEM',
-            subheader: 'ビューティーサロンにご参加ください',
+            subheader: 'ビューティサロンへの参加',
             button: '続きを読む',
           },
           categories: {
-            header: 'カテゴリ',
+            header: 'カテゴリー',
             cat1: 'フェイシャルクレンジング',
             cat2: 'スキンローション',
             cat3: 'バッククリーム',
@@ -584,34 +584,34 @@ i18n
             cat5: 'メイクと健康',
           },
           products: {
-            header: '製品',
+            header: '製品情報',
           },
           cta: {
-            line1: 'あなたがのための提案を探しているなら',
-            line2: '美しさと健康',
-            line3: 'お気軽にお問い合わせ下さい。',
-            button: '連絡する',
+            sentence1:
+              '美と健康のための提案をお探しなら、私たちにご相談ください。',
+            sentence2: '',
+            button: 'お問い合わせ',
           },
           who: {
-            header: '私たちは誰ですか',
+            header: '私たちとは',
           },
           section1: {
             header: 'オリジナルコスメ',
             description:
-              'サムソワン化粧品では、自社化粧品の開発・製造・販売だけでなく、お客様の声をカタチにするOEM・ODM生産も行っております。国内向けだけでなく、海外向け商品の製造にも対応可能です。',
+              'プロコス化粧品では、自社化粧品の開発・製造・販売だけでなく、お客様の声をカタチにするOEM・ODM生産も行っております。国内向けだけでなく、海外向け商品の製造にも対応可能です。',
           },
           section2: {
-            header: '美容、健康、癒し',
+            header: '美容・健康・癒し',
             description:
-              'リーズナブルな価格の化粧品を作り、その効果をしっかりと体験できるほか、サロンストアの教育を充実させ、サロンの輪を広げています。',
+              'リーズナブルな化粧品を作り、その効果をしっかり実感していただくとともに、サロンの店頭教育を充実させ、サロンの輪を広げていきます。',
           },
           section3: {
             header: '会社概要',
             description:
-              'これはプロコス化粧品の会社概要です。 担当者のご挨拶をご覧ください。',
+              'プロコスコスメティックスの会社概要です。弊社代表のご挨拶をご覧ください。',
           },
           more: {
-            button: '詳細',
+            button: '詳細はこちら',
           },
           services: {
             service1: 'モノのインターネット',
@@ -622,13 +622,13 @@ i18n
             search: '探す',
             about: '約',
             idea: 'cpのアイデア',
-            contact: 'コンタクト',
+            contact: 'お問い合わせ',
             services: 'サービス',
             new: '新着',
           },
           footer: {
             company: '会社',
-            privacy: 'プライバシーポリシー',
+            privacy: '個人情報保護方針',
           },
           pages: {
             notFound: {
@@ -648,8 +648,8 @@ i18n
               welcome: 'ようこそ',
               welcomeContent:
                 '私共は“すべての経営はお客様から始まり、真の専門店づくりから経営が始まる”を理念とします。\n素肌美づくりを目的に、正しい化粧品をご指導する高度なカウンセリングにより、顧客一人一人のお肌に誠実、的確に対応し、独自の外面・内面美容を基本にしたビューティカルチャーシステム（美顔術）を推奨します。\n充実した新製品の開発力と、品質と有効性と安全性の高さを自負しております。\n豊富な商品構成を完備し、特に業務用商品と美容液の品揃えは大変充実しています。\n更に、一貫した教育体制のもと、充実した研修セミナーを開催しております。',
-              ceoName: 'Daisuke Sato',
-              ceoPosition: 'CPの最高経営責任者',
+              ceoName: '佐藤 大介',
+              ceoPosition: '代表取締役社長',
               companyProfile: '会社概要',
               startDate: '設立',
               startDateContent: '1995年4月10日',
@@ -720,7 +720,7 @@ i18n
                   button: 'お問い合わせ',
                 },
                 section2: {
-                  header: 'ご要望にお応えします',
+                  header: 'コンセプト',
                   details:
                     '\n▪ 当社の既存商品と中身は同じで、デザインや容器だけを変更したい。\n▪ 完全自社オリジナル商品を製造したい。\n▪ 国内向けだけでなく、海外向けの商品も製造したい。\n\n当社では、お客様のご予算やロット数、商品展開方針に応じて、柔軟なOEM生産が可能です。\n特に多くのお客様からご好評いただいているのが、海外向け化粧品の製造です。\n海外向けに化粧品を製造・販売する場合、国内向け以上に注意すべき要素があります。',
                 },
@@ -738,17 +738,17 @@ i18n
                 step1: {
                   header: '1-会議のリクエスト',
                   details:
-                    'ご希望と商品イメージを教えてください。 販売ルート、価格ライン、生産ロット数など、ご希望をお伝えした上でイメージを具現化します。',
+                    'お客様のご希望と製品イメージをお聞かせください。販売ルート、価格帯、生産ロット数など、ご希望をお伺いした上でイメージを具現化します。',
                 },
                 step2: {
                   header: '2-サンプル製造',
                   details:
-                    '会議終了後、テスターとみなすサンプルを製作します。 ご満足いただけるまでリメイクいたしますので、お気軽にご連絡ください。',
+                    '打ち合わせの後、テスターと言われるサンプルを製作します。ご納得いただけるまで作り直しますので、お気軽にお申し付けください。',
                 },
                 step3: {
                   header: '3-コンテナと梱包材',
                   details:
-                    'コンテナ/梱包材が当社の貿易メーカーによって準備されるのか、それとも顧客によって準備されるのかについて話し合います。',
+                    '容器・包装材を当社商社メーカーで用意するか、お客様で用意するかを打ち合わせします。',
                 },
                 step4: {
                   header: '4-見積もり',
@@ -784,13 +784,13 @@ i18n
                 subject: '主題*',
                 message: 'メッセージ*',
                 agree: '当社規定の「個人情報保護方針」の内容に同意する。',
-                button: 'メールを送る',
+                button: 'メール送信',
                 success: '電子メールを正常に送信。',
               },
               section2: {
-                header: '連絡する',
+                header: 'お問い合わせ',
                 sentence:
-                  '化粧品に関するご質問、研修・セミナーへの参加希望、オリジナル化粧品企画に関するご質問などございましたら、お気軽にお問い合わせください。',
+                  '化粧品に関するご質問、研修・セミナーへの参加希望、オリジナルコスメの企画など、お気軽にお問い合わせください。',
               },
               section3: {
                 header: 'プライバシーポリシー',
@@ -814,7 +814,7 @@ i18n
             },
             services: {
               helmet: 'CPビューティー| サービス',
-              header: '私たちの技術サービスを発見する',
+              header: '技術サービスの紹介',
               card1Details:
                 '企業向けの効率的なIoTソリューションを開発させていただきます',
               card2Details:
@@ -1052,9 +1052,8 @@ i18n
               helmet: 'CPビューティー| 注文完了',
               order: '注文',
               mainMessage: '注文が正常に完了しました。',
-              mailNotify1: '注文領収書が送信されました',
-              mailNotify2: 'に',
-              mailNotify3: '記録のために保管してください。',
+              mailNotify1: '注文領収書が送信されました。',
+              mailNotify2: '記録のために保管してください。',
               continueButton: 'ショッピングを続ける',
               fulfillButton: '注文を履行する',
               delivered: '配信',

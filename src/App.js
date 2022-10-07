@@ -124,7 +124,6 @@ function App() {
             </Routes>
           </Container>
         </main>
-        <div className="row bottom-page-separator"></div>
         <Footer />
       </div>
     </BrowserRouter>

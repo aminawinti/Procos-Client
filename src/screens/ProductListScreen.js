@@ -105,7 +105,7 @@ export default function ProductListScreen() {
       try {
         dispatch({ type: 'CREATE_REQUEST' });
         const { data } = await axios.post(
-          '/api/products',
+          'https://procos.herokuapp.com/api/products',
           {},
           {
             headers: { Authorization: `Bearer ${userInfo.token}` },

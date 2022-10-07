@@ -193,7 +193,7 @@ function HomeScreen() {
       </div>
 
       {/* <!-- CATEGORIES --> */}
-      <div className=" home-wrapper">
+      <div className="home-wrapper">
         <div className="home-wrapper-block">
           <div className="section-title">
             <div className="section-title-pattern"></div>
@@ -251,11 +251,10 @@ function HomeScreen() {
       </div>
 
       {/* <!-- CTA --> */}
-      <div className=" home__cta-container">
+      <div className="home__cta-container">
         <div className="home__cta-content">
-          <h3>{t('cta.line1')}</h3>
-          <h1>{t('cta.line2')}</h1>
-          <h3>{t('cta.line3')}</h3>
+          <h4>{t('cta.sentence1')}</h4>
+          <h4>{t('cta.sentence2')}</h4>
           <div>
             <HashLink to="/contact">
               <Button className="home__cta-btn">{t('cta.button')}</Button>
@@ -265,7 +264,7 @@ function HomeScreen() {
       </div>
 
       {/* <!-- BOTTOM SECTION --> */}
-      <div className=" home__cards-container">
+      <div className="home__cards-container">
         <div className="section-title">
           <div className="section-title-pattern"></div>
           <h1 className="section-title-header">{t('who.header')}</h1>

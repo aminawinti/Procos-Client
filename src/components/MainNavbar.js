@@ -186,13 +186,13 @@ const MainNavbar = () => {
                 <NavDropdown.Item>My Orders</NavDropdown.Item>
               </LinkContainer>
               <NavDropdown.Divider />
-              <Nav.Link
+              <Link
                 className="dropdown-item"
                 to="#signout"
                 onClick={signoutHandler}
               >
                 Sign Out
-              </Nav.Link>
+              </Link>
             </NavDropdown>
           ) : (
             <Link

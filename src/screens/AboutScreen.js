@@ -24,7 +24,7 @@ function AboutScreen() {
           <h1 className="section-title-header">{t('pages.about.welcome')}</h1>
         </div>
 
-        <div className="col-sm-10 col-md-10 col-lg-8 col-xs-12">
+        <div className="col-sm-10 col-md-10 col-lg-10 col-xs-12">
           <div className="welcome-content">
             <div className="quote-icon quote-icon-style">
               <i className="fa fa-quote-left"></i>
