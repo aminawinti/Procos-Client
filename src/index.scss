@@ -2731,6 +2731,7 @@ input[type='file']::file-selector-button {
   width: 95%;
   margin: 0 auto;
   max-width: 1440px;
+  border: 1px solid red;
 }
 .corporate__timeline-container {
   position: relative;
@@ -3229,11 +3230,11 @@ a:hover {
     0 5px 15px 0 rgba(37, 44, 97, 0.15);
   border-radius: 16px;
   margin: 10px;
-  padding: 8px 16px;
+  padding: 8px 16px 24px;
   position: relative;
   z-index: 1;
   overflow: hidden;
-  min-height: 265px;
+  min-height: 275px;
   transition: 0.7s ease;
 }
 .solution_cards_box .solution_card:hover {
