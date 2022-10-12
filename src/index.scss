@@ -2310,7 +2310,7 @@ input[type='file']::file-selector-button {
     180deg,
     rgba(#26699c, 0.15) 25%,
     rgba(#ea468f, 0.15) 80%,
-    rgba(#ea468f, 0.25) 100%
+    rgba(#ea468f, 0.05) 100%
   );
 }
 .category-card-content {
@@ -2393,7 +2393,7 @@ input[type='file']::file-selector-button {
 }
 @media only screen and (min-width: 1024px) {
   .home__cta-container {
-    background-position: 10% center;
+    background-position: 20% 85%;
   }
 }
 .card-group {
